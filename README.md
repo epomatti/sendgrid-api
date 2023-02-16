@@ -13,6 +13,7 @@ Create the `.env` file:
 SENDGRID_API_KEY="<KEY>"
 FROM="<SENDER EMAIL>"
 TO="<RECIPIENT EMAIL>"
+TEMPLATE_ID="<ID>"
 ```
 
 Install and run the code:
@@ -21,3 +22,14 @@ Install and run the code:
 npm install
 node app.js
 ```
+
+To send email via dynamic template:
+
+```
+node client.js
+```
+
+### Reference
+
+- [Dynamic Tempalte API](https://docs.sendgrid.com/api-reference/mail-send/mail-send)
+- [Dynamic Template API Guide](https://docs.sendgrid.com/ui/sending-email/how-to-send-an-email-with-dynamic-templates)
